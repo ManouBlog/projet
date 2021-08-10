@@ -61,6 +61,9 @@ li{
     color: whitesmoke;
     
 }
+.cote__left-description h2{
+    margin: 1rem auto;
+}
 
 .cote__left-img{
     background:url("../projet/images/POTRAIT.png");
@@ -70,6 +73,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 1rem;
+    border-radius: 100%;
    
 }
 .cote__left-contacts *{
@@ -124,6 +128,9 @@ li{
    background: whitesmoke ;
    
 }
+.exper{
+    margin-top: 2rem;
+}
 .cote__right-experience__professionnelle *{
     margin-top: .5rem;
     
@@ -166,12 +173,15 @@ p a{
     }
    .cote__left{
        width: 100%;
-       padding: 1rem;
+       padding-bottom: 1rem;
        margin-bottom: 1rem;
        
    }
    .cote__left-img{
    border-radius: 100%;
+   margin: auto;
+   width: 250px;
+   height: 250px;
    }
    h4,h2,h3{
     font-size: 1rem;
@@ -203,6 +213,7 @@ p a{
         height: 500px;
         margin: 0;
         background-attachment: fixed;
+        border-radius: 0;
        
     }
    
